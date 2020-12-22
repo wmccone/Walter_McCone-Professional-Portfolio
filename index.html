@@ -7,50 +7,69 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body class="bg-dark">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Walter McCone</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav d-flex navbar-right me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
-              </li>
-            </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Walter McCone</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav d-flex navbar-right me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">About</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-  </nav>
+    </nav>
+  </header>
       <!-- This is going to contain the about me card and the empty space -->
-  <div class="d-flex h-100 >
+  <main class="container my-3">
     <div class="row">
       <!-- This is the card -->
-      <div class="col-sm-9">
-        <div class="card mx-4 my-5">
+      <div class="col-md-8 col-sm-10">
+        <div class="card">
           <div class="card-body">
-            <h1 class="card-title">About Me</h1>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <img src="#" alt="Picture of Walter McCone"
-            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eligendi obcaecati tempora voluptates unde non minus quam aliquid ab voluptatum hic velit quisquam illo neque corrupti, corporis molestias? Iusto, sint.</p>
+            <div class="row">
+              <div class="col-12">
+                <h1 class="card-title border-bottom border-4">About Me</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class= "col-sm-12">
+                <img class="img-fluid img-thumbnail float-start me-2" src="assets/Headshot.jpg" alt="Picture of Walter McCone"/>
+                <p class="card-text ms-2"> My name is Walter McCone, I am currently a coding student at the Coding Bootcamp at the University of Texas. 
+                I have 10+ years in the SaaS industry with 8 of those years in recruiting software. 
+                <br>
+                <br>
+                I currently work for a Company called CareerPlug. CareerPlug’s innovative hiring solutions help over 10,000 companies attract, evaluate and retain high-quality team members. CareerPlug provides recruiting software to help small, medium and franchise businesses hire top talent.
+                <br>
+                <br>
+                While I am currently a Sales person at CareerPlug, I look forward to growing my skillsets in the software industry as I learn to code. I hope that one day I will be able to code full time.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-3">
+      <!-- this is the empty space -->
+      <div class="col-md-4 col-sm-2">
       </div>
-      
     </div>
     
         <!-- This is going to be a footer -->
-  </div>
-  <footer class="mt-0 text-white-50">
-    <p>Copyright.</p>
-  </footer>
+  </main>
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+      </div>
+    </footer>
 </body>
 </html>
