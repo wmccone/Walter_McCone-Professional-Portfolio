@@ -1,5 +1,5 @@
 # Walter McCone Professional Portfolio
-[Deployed Application](https://wmccone.github.io/first-portfolio/)
+[Deployed Application](https://wmccone.github.io/Walter_McCone-Professional-Portfolio/)
 
 Technologies used: HTML and CSS
 
